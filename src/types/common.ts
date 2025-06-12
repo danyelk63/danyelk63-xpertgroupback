@@ -1,0 +1,1 @@
+export type isoDate = string;
