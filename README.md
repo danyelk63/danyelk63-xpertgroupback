@@ -20,13 +20,13 @@ Asegúrate de instalar estas herramientas antes de comenzar con la configuració
 
 El código fuente del backend está disponible en el siguiente repositorio de GitHub:
 
-[https://github.com/danyelk63/danyelk63-xpertgroupback.git](https://github.com/danyelk63/danyelk63-xpertgroupback.git)
+[https://github.com/danyelk63/danyelk63-xpertgroupback](https://github.com/danyelk63/danyelk63-xpertgroupback)
 
 ## Repositorio del FrontEnd
 
 El código fuente del frontend está disponible en el siguiente repositorio de GitHub:
 
-[https://github.com/danyelk63/danyelk63-xpertgroupfront.git](https://github.com/danyelk63/danyelk63-xpertgroupfront.git)
+[https://github.com/danyelk63/danyelk63-xpertgroupfront](https://github.com/danyelk63/danyelk63-xpertgroupfront)
 
 ---
 
