@@ -4,7 +4,15 @@ import { getBreeds, getBreedById, searchBreeds, getImagesByBreedId } from "../se
 export const getAllBreeds = async (req: Request, res: Response) => {
   try {
     const breeds = await getBreeds();
-    // Solo devolver id y name de cada raza
+    res.status(200).json(breeds);
+  } catch (error) {
+    res.status(500).json({ error: "Error fetching cat breeds" });
+  }
+};
+
+export const getAllNames = async (req: Request, res: Response) => {
+  try {
+    const breeds = await getBreeds();
     const simplifiedBreeds = breeds.map((breed: any) => ({
       id: breed.id,
       name: breed.name

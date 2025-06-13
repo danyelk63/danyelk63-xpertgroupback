@@ -35,9 +35,7 @@ export const loginUser = async (req: Request, res: Response) => {
       return res.status(400).json({ error: "User data is required" });
     }
 
-    userData.createdAt = new Date();
     userData.updatedAt = new Date();
-    userData.isActive = true;
 
     const user = await userService.getUserByEmail(userData.email);
 

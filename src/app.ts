@@ -4,7 +4,8 @@ import dotenv from "dotenv";
 import userRouter from "./routes/userRoutes";
 import catRouter from "./routes/catRoutes";
 import { errorHandler } from "./middlewares/errorHandler";
-import { corsMiddleware } from "./middlewares/cors";
+import { corsMiddleware } from "./middlewares/corsHandler";
+import { authMiddleware } from "./middlewares/authHandler";
 
 dotenv.config();
 const app = express();
@@ -12,6 +13,7 @@ const app = express();
 // middleware
 app.use(express.json());
 app.use(corsMiddleware);
+app.use(authMiddleware);
 app.use(errorHandler);
 
 // routes
