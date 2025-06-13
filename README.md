@@ -26,7 +26,7 @@ El código fuente del backend está disponible en el siguiente repositorio de Gi
 
 El código fuente del frontend está disponible en el siguiente repositorio de GitHub:
 
-[https://github.com/danyelk63/danyelk63-xpertgroupfront](https://github.com/danyelk63/danyelk63-xpertgroupfront)
+[https://github.com/danyelk63/xpertgroupfront](https://github.com/danyelk63/xpertgroupfront)
 
 ---
 
